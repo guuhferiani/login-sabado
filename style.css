@@ -61,9 +61,18 @@ body {
     cursor: pointer;
 }
 
+.container button:hover {
+    background-color: #5f3eab;
+}
+
 .container button.hidden {
     background-color: transparent;
     border-color: #fff;
+}
+
+.container button.hidden:hover {
+    color: #ccc;
+    border-color: #ccc;
 }
 
 .container form {
@@ -145,6 +154,12 @@ body {
     font-size: 20px;
 }
 
+.social-icons a:hover {
+    border: 1px solid #ccc;
+    color: #eee;
+    background: #512da8;
+    transition: all 0.3s ease-in-out;
+}
 
 .toggle-container{
     position: absolute;
